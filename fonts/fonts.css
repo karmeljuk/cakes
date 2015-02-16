@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Lily Script One';
+    src: url('../fonts/lilyscriptone-regular.eot');
+    src: url('../fonts/lilyscriptone-regular.eot') format('embedded-opentype'),
+         url('../fonts/lilyscriptone-regular.woff2') format('woff2'),
+         url('../fonts/lilyscriptone-regular.woff') format('woff'),
+         url('../fonts/lilyscriptone-regular.ttf') format('truetype'),
+         url('../fonts/lilyscriptone-regular.svg#LilyScriptOneRegular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('../fonts/oldstandard-regular.eot');
+    src: url('../fonts/oldstandard-regular.eot') format('embedded-opentype'),
+         url('../fonts/oldstandard-regular.woff2') format('woff2'),
+         url('../fonts/oldstandard-regular.woff') format('woff'),
+         url('../fonts/oldstandard-regular.ttf') format('truetype'),
+         url('../fonts/oldstandard-regular.svg#OldStandardTTRegular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('../fonts/oldstandard-bold.eot');
+    src: url('../fonts/oldstandard-bold.eot') format('embedded-opentype'),
+         url('../fonts/oldstandard-bold.woff2') format('woff2'),
+         url('../fonts/oldstandard-bold.woff') format('woff'),
+         url('../fonts/oldstandard-bold.ttf') format('truetype'),
+         url('../fonts/oldstandard-bold.svg#OldStandardTTBold') format('svg');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('../fonts/oldstandard-italic.eot');
+    src: url('../fonts/oldstandard-italic.eot') format('embedded-opentype'),
+         url('../fonts/oldstandard-italic.woff2') format('woff2'),
+         url('../fonts/oldstandard-italic.woff') format('woff'),
+         url('../fonts/oldstandard-italic.ttf') format('truetype'),
+         url('../fonts/oldstandard-italic.svg#OldStandardTTItalic') format('svg');
+    font-style: italic;
+    font-weight: 400;
+}
