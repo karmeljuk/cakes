@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<section id="page" class="content-area search">
-    <div class="main-image" style="background-image: url(http://lorempixel.com/1920/341/food);"></div>
+    <?php echo '<div class="main-image" style="background-image: url(\''.T_IMG.'/blog_header_bg.jpg\');"></div>'; ?>
 		<main id="main" class="container" role="main">
 
 		<?php if ( have_posts() ) : ?>

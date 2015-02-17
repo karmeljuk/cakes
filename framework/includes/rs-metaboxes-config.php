@@ -46,18 +46,12 @@ $meta_boxes[] = array(
 //Product Options
 $meta_boxes[] = array(
 
-	'id' => 'product',
-	'title' => __( 'Product Options', 'cakes' ),
-	'pages' => array( 'product' ),
-	'context' => 'normal',
-	'priority' => 'low',
-	'fields' => array(
-    array(
-        'name' => 'Custom Header Image', 'meta-box',
-        'id'   => "header_img",
-        'type' => 'image',
-        'desc' => 'Change custom image for header'
-    ),
+  'id' => 'product',
+  'title' => __( 'Product Options', 'cakes' ),
+  'pages' => array( 'product' ),
+  'context' => 'normal',
+  'priority' => 'low',
+  'fields' => array(
     array(
       'name' => __('Product Price:', 'cakes' ),
       'id'   => 'product_price',
@@ -76,6 +70,24 @@ $meta_boxes[] = array(
       'type' => 'textarea',
       'desc' => 'Enter Product Intro. Leave blank to hide'
     )
+  )
+);
+
+//Service Options
+$meta_boxes[] = array(
+
+	'id' => 'service',
+	'title' => __( 'Background Options', 'cakes' ),
+	'pages' => array( 'post', 'product', 'service' ),
+	'context' => 'normal',
+	'priority' => 'high',
+	'fields' => array(
+    array(
+        'name' => 'Custom Header Image', 'meta-box',
+        'id'   => "header_img",
+        'type' => 'image',
+        'desc' => 'Change custom image for header'
+    ),
 	)
 );
 

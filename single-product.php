@@ -6,19 +6,9 @@
  */
 
 get_header();
-$header_img = rwmb_meta('header_img');
 ?>
 
-<?php
-if (is_numeric($header_img) && !empty($header_img)) {
-    $url = wp_get_attachment_url($header_img);
-    echo '<div class="main-image detailed" style="background-image: url('.$url.');"></div>';
-  }
-
-else {
-  echo '<div class="main-image detailed" style="background-image: url(\''.T_IMG.'/bg_top_product_detail.jpg\');"></div>';
-  }
-?>
+  <?php product_header_image(); ?>
   <div id="page">
     <section class="product-detail-content container container1200">
       <div class="wrap">
@@ -41,7 +31,7 @@ else {
         <?php endif; ?>
 
         <?php if($cakes_opt['related-products'] == 1): ?>
-          <div class="related-products scale-text act">
+          <div class="related-products scale-text">
             <div class="section-title">
               <h2>Related <b>Products</b></h2>
             </div>

@@ -18,10 +18,6 @@ jQuery(document).ready(function($) {
 		$('#content')
       .append('<div class="pbd-alp-placeholder-'+ pageNum +'"></div>')
 			.append('<div class="clr"></div>')
-			// .append('<p id="articleLoad"><a href="#">Load More Posts</a></p>');
-
-		// Remove the traditional navigation.
-		// $('.navigation').remove();
 	}
 
 
@@ -36,19 +32,20 @@ jQuery(document).ready(function($) {
 			// Show that we're working.
 			// $(this).text('Loading posts...');
 
-			$('.pbd-alp-placeholder-'+ pageNum).load(nextLink + ' .post',
+			$('.pbd-alp-placeholder-'+ pageNum).load(nextLink + ' .ajax-post',
 				function() {
 					// Update page number and nextLink.
 					pageNum++;
 					nextLink = nextLink.replace(/\/page\/[0-9]?/, '/page/'+ pageNum);
 
 					// Add a new placeholder, for when user clicks again.
-					$('#articleLoad')
-						.before('<div class="pbd-alp-placeholder-'+ pageNum +'"></div>')
+          $('#content')
+            .append('<div class="pbd-alp-placeholder-'+ pageNum +'"></div>')
+            .append('<div class="clr"></div>')
 
 					// Update the button message.
 					if(pageNum <= max) {
-						$('#articleLoad a').text('');
+						$('#articleLoad a span').text('');
 					} else {
             $('#articleLoad').append('<p class="center-align">No More Posts</p>');
 						$('#articleLoad a span').removeClass('red');

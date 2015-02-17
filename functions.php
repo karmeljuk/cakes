@@ -22,7 +22,6 @@ require_once( dirname( __FILE__ ) . '/'. F_PATH . '/redux-panel/options/options.
 
 locate_template ( F_DIR . '/rs-actions-config.php',   true );
 locate_template ( F_DIR . '/rs-helper-functions.php', true );
-
 locate_template ( F_DIR . '/rs-include-config.php',   true );
 locate_template ( F_DIR . '/rs-filters-config.php', true );
 // locate_template ( F_DIR . '/rs-widgets-config.php',   true );
@@ -104,6 +103,16 @@ function cakes_setup() {
 endif; // cakes_setup
 add_action( 'after_setup_theme', 'cakes_setup' );
 
+
+/**
+ * If is custom post type
+ */
+function is_post_type($type){
+    global $wp_query;
+    if($type == get_post_type($wp_query->post->ID)) return true;
+    return false;
+}
+
 /**
  * Page featured image for background
  */
@@ -112,9 +121,6 @@ function page_background() {
     $dom = simplexml_load_string(get_the_post_thumbnail());
     $src = $dom->attributes()->src;
     echo $src;
-  }
-  else {
-    $src = 'http://lorempixel.com/1920/341/food';
   }
   return $src;
 }
@@ -146,7 +152,7 @@ function wordpressapi_comments($comment, $args, $depth) {
     <div id="comment-<?php comment_ID(); ?>" class="fade-anime time-<?php echo 100 * $time++ ?>">
       <div>
         <div class="comment-avatar col-sm-3">
-          <?php echo get_avatar($comment, $size = '134', $default = 'http://lorempixel.com/134/134/people'); ?>
+          <?php echo get_avatar($comment, $size = '134'); ?>
         </div>
 
         <div class="comment-right col-sm-9">
@@ -183,16 +189,20 @@ function wordpressapi_comments($comment, $args, $depth) {
   * PBD AJAX Load Posts
   * Initialization. Add our script if needed on this page.
   */
-function pbd_alp_init() {
-  global $wp_query;
+function pbd_alp_init($loop=0) {
+  if (empty($loop) && ($loop == 0)) {
+    global $wp_query;
+    $loop = $wp_query;
+  }
+
 
   // Add code to index pages.
-  if( !is_singular() ) {
+  if( is_page() || is_category() ) {
 
     wp_enqueue_script( 'pbd-alp-load-posts', T_JS . '/load-posts.js', array('jquery'), '1.0', true );
 
     // What page are we on? And what is the pages limit?
-    $max = $wp_query->max_num_pages;
+    $max = $loop->max_num_pages;
     $paged = ( get_query_var('paged') > 1 ) ? get_query_var('paged') : 1;
 
     // Add some parameters for the JS.
@@ -209,7 +219,6 @@ function pbd_alp_init() {
  }
  add_action('template_redirect', 'pbd_alp_init');
 
-
 /**
  * Related Products
  */
@@ -217,9 +226,6 @@ function related_products( ) {
 
   $args = array(
     'post_type'  => 'product',
-    'taxonomy'   => 'product-category',
-    'category'   => 'products',
-    // 'posts_per_page' => $limit,
   );
 ?>
 
@@ -263,5 +269,34 @@ function related_products( ) {
 
 <?php }
 
+/**
+ * Single Header Image
+ */
+function single_header_image() {
+  $header_img = rwmb_meta('header_img');
 
+  if (is_numeric($header_img) && !empty($header_img)) {
+    $url = wp_get_attachment_url($header_img);
+    echo '<div class="main-image" style="background-image: url('.$url.');"></div>';
+  }
 
+  else {
+    echo '<div class="main-image" style="background-image: url(\''.T_IMG.'/blog_header_bg.jpg\');"></div>';
+  }
+}
+
+/**
+ * Product Header Image
+ */
+function product_header_image() {
+  $header_img = rwmb_meta('header_img');
+
+  if (is_numeric($header_img) && !empty($header_img)) {
+    $url = wp_get_attachment_url($header_img);
+    echo '<div class="main-image detailed" style="background-image: url('.$url.');"></div>';
+  }
+
+  else {
+    echo '<div class="main-image detailed" style="background-image: url(\''.T_IMG.'/bg_top_product_detail.jpg\');"></div>';
+  }
+}

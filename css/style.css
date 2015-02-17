@@ -2617,7 +2617,7 @@ li.menu-item-has-children:after {content:  url(../img/menu_arrow.png);display: i
 }
 .product-detail-content .related-products .flex-direction-nav {
   position: relative;
-  margin: 35px 0 0;
+  margin: 100px 0 0;
   text-align: center;
 }
 .product-detail-content .related-products .flex-direction-nav li {

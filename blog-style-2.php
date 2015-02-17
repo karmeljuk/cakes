@@ -18,7 +18,7 @@
         <?php while ( have_posts() ) : the_post(); ?>
         <?php $year = get_the_date('Y'); ?>
 
-        <div class="post">
+        <div class="ajax-post">
           <?php if ($year !== $year_check): ?>
             <div class="ico_year_shape"><span><?php echo $year; ?></span></div>
           <?php endif; ?>

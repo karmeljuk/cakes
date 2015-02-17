@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts.
+ * The template for displaying service post.
  *
  * @package cakes
  */
@@ -37,13 +37,6 @@ $post_col = ($cakes_opt['single-sidebar'] == 1) ? 'col-sm-9':'';
         <?php if($cakes_opt['single-social-share'] == 1): ?>
           <?php get_template_part( 'content', 'share' ); ?>
         <?php endif; ?>
-
-  			<?php
-  				// If comments are open or we have at least one comment, load up the comment template
-  				if ( is_post_type('post') && (comments_open() || get_comments_number()) ) :
-  					comments_template();
-  				endif;
-  			?>
 
     		<?php endwhile; // end of the loop. ?>
 
