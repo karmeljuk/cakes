@@ -78,7 +78,7 @@ $meta_boxes[] = array(
 
 	'id' => 'service',
 	'title' => __( 'Background Options', 'cakes' ),
-	'pages' => array( 'post', 'product', 'service' ),
+	'pages' => array( 'post', 'product', 'content' ),
 	'context' => 'normal',
 	'priority' => 'high',
 	'fields' => array(
