@@ -265,11 +265,13 @@ function related_products( ) {
  * Check if set Header Image
  */
 function no_header_image($classes) {
-  $header_img_check = rwmb_meta('header_img_check');
-  // add 'class-name' to the $classes array
-  if( $header_img_check == 0 ) $classes[] = 'no-header-image';
-  // return the $classes array
-  return $classes;
+  if(is_page()){
+    $header_img_check = rwmb_meta('header_img_check');
+    // add 'class-name' to the $classes array
+    if( $header_img_check == 1 ) $classes[] = 'no-header-image';
+    // return the $classes array
+    return $classes;
+  }
 }
 add_filter('body_class','no_header_image');
 
@@ -280,7 +282,7 @@ function single_header_image() {
   $header_img = rwmb_meta('header_img');
   $header_img_check = rwmb_meta('header_img_check');
 
-  if($header_img_check == 1) {
+  if($header_img_check == 0) {
     if (is_numeric($header_img) && !empty($header_img)) {
       $url = wp_get_attachment_url($header_img);
       echo '<div class="main-image" style="background-image: url('.$url.');"></div>';
@@ -299,7 +301,7 @@ function product_header_image() {
   $header_img = rwmb_meta('header_img');
   $header_img_check = rwmb_meta('header_img_check');
 
-  if($header_img_check == 1) {
+  if($header_img_check == 0) {
     if (is_numeric($header_img) && !empty($header_img)) {
       $url = wp_get_attachment_url($header_img);
       echo '<div class="main-image detailed" style="background-image: url('.$url.');"></div>';

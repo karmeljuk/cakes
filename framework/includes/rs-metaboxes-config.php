@@ -83,16 +83,17 @@ $meta_boxes[] = array(
   'priority' => 'high',
   'fields' => array(
     array(
-        'name' => __( 'Enable Header Image on this page', 'cakes' ),
-        'id'   => "header_img_check",
-        'type' => 'checkbox',
-        'std'  => 1,
-    ),
-    array(
         'name' => __( 'Custom Header Image', 'cakes'),
         'id'   => "header_img",
         'type' => 'image_advanced',
         'desc' => __( 'Change custom image for header. If the image is not set, the default image will be used', 'cakes'),
+    ),
+    array(
+        'name' => __( 'Disable Header Image on this page', 'cakes' ),
+        'id'   => "header_img_check",
+        'type' => 'checkbox',
+        'std'  => 0,
+        // 'value'  => 1,
     ),
   )
 );

@@ -8,7 +8,6 @@
 get_header();
 $post_col = ($cakes_opt['single-sidebar'] == 1) ? 'col-sm-9':'';
 ?>
-
 <?php single_header_image(); ?>
 <div id="page">
   <section class="blog-detail-content container">

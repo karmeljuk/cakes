@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.1" created="2015-02-19 09:45" -->
+<!-- generator="WordPress/4.1.1" created="2015-02-19 15:24" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Invisio</title>
 	<link>http://mickey3cutter.com/cakes</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Thu, 19 Feb 2015 09:45:33 +0000</pubDate>
+	<pubDate>Thu, 19 Feb 2015 15:24:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://mickey3cutter.com/cakes</wp:base_site_url>
@@ -58,7 +58,7 @@
 	<wp:term><wp:term_id>4</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>main-menu-left</wp:term_slug><wp:term_name><![CDATA[Main menu left]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>5</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>main-menu-right</wp:term_slug><wp:term_name><![CDATA[Main menu right]]></wp:term_name></wp:term>
 
-	<generator>http://wordpress.org/?v=4.1</generator>
+	<generator>http://wordpress.org/?v=4.1.1</generator>
 
 	<item>
 		<title>home_banner_1</title>
@@ -5496,7 +5496,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 		<dc:creator><![CDATA[karmeljuk]]></dc:creator>
 		<guid isPermaLink="false">http://mickey3cutter.com/cakes/?page_id=4</guid>
 		<description></description>
-		<content:encoded><![CDATA[[vc_row css=".vc_custom_1423336997269{padding-top: 88px !important;padding-bottom: 75px !important;}"][vc_column width="1/1"][page_title title="About <b>Us</b>" description="Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem"][vc_empty_space height="53px"][image_gallery cats="25" limit="3" article="Fusce id elit et tellus egestas fermentum. Suspendisse et mollis risus, ut congue nisl. Praesent sed facilisis dui. Mauris facilisis tincidunt vestibulum. Maecenas volutpat sagittis mi, ut vulputate mauris sodales in. Curabitur pulvinar mattis nunc eu hendrerit. Integer porttitor metus eu leo sodales, sed malesuada nulla ullamcorper. Vivamus nisl lorem, condimentum nec nibh facilisis, dapibus aliquam turpis. Quisque dolor tellus, porttitor vitae ipsum ac, dignissim malesuada turpis. Donec auctor lacus ut odio lobortis rhoncus. Curabitur pellentesque ac dolor et imperdiet. Aenean consectetur erat quam, ac volutpat nisi placerat in. Nunc metus mi, tempus nec urna quis, tempus laoreet tellus. Etiam vel justo vestibulum, blandit velit quis, consequat lorem. Aenean tellus velit, condimentum ut tincidunt quis, fermentum ut velit."][/vc_column][/vc_row][vc_row css=".vc_custom_1423237694188{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_btn_brown.png?id=475) !important;background-position: 0 0 !important;background-repeat: repeat !important;}"][vc_column width="1/1"][section_title title="Our History" size="h2" white="white"][vc_empty_space height="47px"][history cats="36" limit="6" section_title="Our History" size="h2"][/vc_column][/vc_row][vc_row css=".vc_custom_1423337159869{padding-top: 90px !important;padding-bottom: 110px !important;}"][vc_column width="1/1"][section_title title="Meet With <b>Our Professionals</b>" size="h2" description="Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacus malesuada lobortis vel sed sem"][vc_empty_space height="50px"][our_team cats="34" limit="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1423483922797{background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_about_us_testimonials.jpg?id=482) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" fixed_bg="fixed_bg"][vc_column width="1/1"][about_testimonials cats="35" limit="3" image="482"][/vc_column][/vc_row]]]></content:encoded>
+		<content:encoded><![CDATA[[vc_row][vc_column width="1/1"][/vc_column][/vc_row][vc_row css=".vc_custom_1423336997269{padding-top: 88px !important;padding-bottom: 75px !important;}"][vc_column width="1/1"][page_title title="About <b>Us</b>" description="Proin mattis rutrum magna, et pretium erat tincidunt at. Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacusvel sed sem"][vc_empty_space height="53px"][image_gallery cats="25" limit="3" article="Fusce id elit et tellus egestas fermentum. Suspendisse et mollis risus, ut congue nisl. Praesent sed facilisis dui. Mauris facilisis tincidunt vestibulum. Maecenas volutpat sagittis mi, ut vulputate mauris sodales in. Curabitur pulvinar mattis nunc eu hendrerit. Integer porttitor metus eu leo sodales, sed malesuada nulla ullamcorper. Vivamus nisl lorem, condimentum nec nibh facilisis, dapibus aliquam turpis. Quisque dolor tellus, porttitor vitae ipsum ac, dignissim malesuada turpis. Donec auctor lacus ut odio lobortis rhoncus. Curabitur pellentesque ac dolor et imperdiet. Aenean consectetur erat quam, ac volutpat nisi placerat in. Nunc metus mi, tempus nec urna quis, tempus laoreet tellus. Etiam vel justo vestibulum, blandit velit quis, consequat lorem. Aenean tellus velit, condimentum ut tincidunt quis, fermentum ut velit."][/vc_column][/vc_row][vc_row css=".vc_custom_1423237694188{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_btn_brown.png?id=475) !important;background-position: 0 0 !important;background-repeat: repeat !important;}"][vc_column width="1/1"][section_title title="Our History" size="h2" white="white"][vc_empty_space height="47px"][history cats="36" limit="6" section_title="Our History" size="h2"][/vc_column][/vc_row][vc_row css=".vc_custom_1423337159869{padding-top: 90px !important;padding-bottom: 110px !important;}"][vc_column width="1/1"][section_title title="Meet With <b>Our Professionals</b>" size="h2" description="Donec lectus ipsum, pulvinar id sollicitudin id, bibendum vel quam. Suspendisse nec ante non lacus malesuada lobortis vel sed sem"][vc_empty_space height="50px"][our_team cats="34" limit="8"][/vc_column][/vc_row][vc_row css=".vc_custom_1423483922797{background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_about_us_testimonials.jpg?id=482) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" fixed_bg="fixed_bg"][vc_column width="1/1"][about_testimonials cats="35" limit="3" image="482"][/vc_column][/vc_row]]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>4</wp:post_id>
 		<wp:post_date>2015-01-23 11:13:39</wp:post_date>
@@ -5527,10 +5527,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 			<wp:meta_value><![CDATA[a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[164]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
@@ -5541,6 +5537,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
 			<wp:meta_value><![CDATA[.vc_custom_1423336997269{padding-top: 88px !important;padding-bottom: 75px !important;}.vc_custom_1423237694188{padding-top: 90px !important;padding-bottom: 90px !important;background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_btn_brown.png?id=475) !important;background-position: 0 0 !important;background-repeat: repeat !important;}.vc_custom_1423337159869{padding-top: 90px !important;padding-bottom: 110px !important;}.vc_custom_1423483922797{background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_about_us_testimonials.jpg?id=482) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
+			<wp:meta_value><![CDATA[164]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5581,16 +5585,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 			<wp:meta_value><![CDATA[a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[206]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
 			<wp:meta_value><![CDATA[.vc_custom_1423338543656{padding-top: 90px !important;padding-bottom: 115px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
+			<wp:meta_value><![CDATA[206]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5619,10 +5627,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[220]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wpb_vc_js_status</wp:meta_key>
 			<wp:meta_value><![CDATA[true]]></wp:meta_value>
 		</wp:postmeta>
@@ -5645,6 +5649,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eveniet qu
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
 			<wp:meta_value><![CDATA[.vc_custom_1423345753187{padding-top: 90px !important;}.vc_custom_1423488688305{padding-top: 90px !important;padding-bottom: 110px !important;background-image: url(http://mickey3cutter.com/cakes/wp-content/uploads/2015/01/bg_services_best_offers.jpg?id=515) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1423570169914{padding-top: 85px !important;padding-bottom: 95px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
+			<wp:meta_value><![CDATA[220]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -5689,10 +5701,6 @@ USA, 10001" phone_1="555.785.8965" phone_2="555.897.4321" email_1="office@invisi
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[338]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wp_page_template</wp:meta_key>
 			<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
@@ -5711,6 +5719,14 @@ USA, 10001" phone_1="555.785.8965" phone_2="555.897.4321" email_1="office@invisi
 		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
 			<wp:meta_value><![CDATA[.vc_custom_1423331278860{border-bottom-width: 22px !important;padding-top: 90px !important;padding-bottom: 28px !important;}.vc_custom_1423831311531{padding-bottom: 85px !important;}.vc_custom_1423331376877{margin-bottom: 56px !important;}.vc_custom_1423331485416{padding-bottom: 110px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
+			<wp:meta_value><![CDATA[338]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -6420,12 +6436,16 @@ USA, 10001" phone_1="555.785.8965" phone_2="555.897.4321" email_1="office@invisi
 			<wp:meta_value><![CDATA[a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
+			<wp:meta_value><![CDATA[.vc_custom_1423332541124{padding-top: 90px !important;}.vc_custom_1423654181132{padding-bottom: 90px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
 			<wp:meta_value><![CDATA[317]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
-			<wp:meta_value><![CDATA[.vc_custom_1423332541124{padding-top: 90px !important;}.vc_custom_1423654181132{padding-bottom: 90px !important;}]]></wp:meta_value>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -7050,6 +7070,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ad amet debitis a
 			<wp:meta_key>vc_teaser</wp:meta_key>
 			<wp:meta_value><![CDATA[a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[karmeljuk]]></wp:comment_author>
@@ -7163,12 +7187,16 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ad amet debitis a
 			<wp:meta_value><![CDATA[a:2:{s:4:"data";s:115:"[{"name":"title","link":"post"},{"name":"image","image":"featured","link":"none"},{"name":"text","mode":"excerpt"}]";s:7:"bgcolor";s:0:"";}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[400]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wpb_shortcodes_custom_css</wp:meta_key>
 			<wp:meta_value><![CDATA[.vc_custom_1423334183872{margin-bottom: 20px !important;padding-top: 90px !important;}.vc_custom_1423654217932{padding-bottom: 90px !important;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img</wp:meta_key>
+			<wp:meta_value><![CDATA[317]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -8537,6 +8565,10 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut eget est et jus
 		<wp:postmeta>
 			<wp:meta_key>product_description</wp:meta_key>
 			<wp:meta_value><![CDATA[Aenean egestas placerat nisi. Fusce sed libero tempus, ullamcorper nunc elit risus, convallis vitae tellus]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>header_img_check</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
