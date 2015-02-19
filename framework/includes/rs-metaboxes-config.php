@@ -73,23 +73,30 @@ $meta_boxes[] = array(
   )
 );
 
-//Service Options
+//Background Options
 $meta_boxes[] = array(
 
-	'id' => 'service',
-	'title' => __( 'Background Options', 'cakes' ),
-	'pages' => array( 'post', 'product', 'content' ),
-	'context' => 'normal',
-	'priority' => 'high',
-	'fields' => array(
+  'id' => 'service',
+  'title' => __( 'Background Options', 'cakes' ),
+  'pages' => array( 'post', 'product', 'content', 'page' ),
+  'context' => 'normal',
+  'priority' => 'high',
+  'fields' => array(
     array(
-        'name' => 'Custom Header Image', 'meta-box',
-        'id'   => "header_img",
-        'type' => 'image',
-        'desc' => 'Change custom image for header'
+        'name' => __( 'Enable Header Image on this page', 'cakes' ),
+        'id'   => "header_img_check",
+        'type' => 'checkbox',
+        'std'  => 1,
     ),
-	)
+    array(
+        'name' => __( 'Custom Header Image', 'cakes'),
+        'id'   => "header_img",
+        'type' => 'image_advanced',
+        'desc' => __( 'Change custom image for header. If the image is not set, the default image will be used', 'cakes'),
+    ),
+  )
 );
+
 
 
 /*-----------------------------------------------------------------------------------*/

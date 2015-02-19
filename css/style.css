@@ -1907,7 +1907,7 @@ a.rounded-ico:focus{
   width: 100%;
   height: 100%;
 }
-.home #header{
+.no-header-image #header{
   position: absolute;
   width: 100%;
 }
@@ -4226,7 +4226,7 @@ body{
     display: none;
   }
 
-  #header.hdTwo{
+  .no-header-image #header{
     position: absolute;
     width: 100%;
   }

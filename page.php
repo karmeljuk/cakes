@@ -7,11 +7,7 @@
 get_header(); ?>
 
 <div id="page">
-  <?php if ( has_post_thumbnail() ) : ?>
-    <div class="main-image" style="background-image: url('<?php page_background() ?>');"></div>
-  <?php else: ?>
-    <?php echo '<div class="main-image" style="background-image: url(\''.T_IMG.'/blog_header_bg.jpg\');"></div>'; ?>
-  <?php endif; ?>
+  <?php single_header_image(); ?>
 
   <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>

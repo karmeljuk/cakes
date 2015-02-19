@@ -9,6 +9,11 @@
 
   <?php
     global $cakes_opt;
+    $s_facebook = esc_url($cakes_opt['s_facebook']);
+    $s_twitter = esc_url($cakes_opt['s_twitter']);
+    $s_gplus = esc_url($cakes_opt['s_gplus']);
+    $s_pinterset = esc_url($cakes_opt['s_pinterset']);
+    $s_linkedin = esc_url($cakes_opt['s_linkedin']);
     $favicon = $cakes_opt['general-favicon']['url'];
   ?>
   <!-- favicon -->
@@ -29,29 +34,29 @@
     <nav class="social" id="headerShareLinksHover">
       <a href="#" class="share-link"></a>
       <ul>
-        <?php if ( !empty(esc_url($cakes_opt['s_facebook']))): ?>
+        <?php if ( !empty($s_facebook)): ?>
           <li class="facebook" style="top:-65px;" data-top="-65px">
             <a href="<?php echo $s_facebook; ?>" target="_blank"></a>
           </li>
         <?php endif; ?>
-        <?php if ( !empty(esc_url($cakes_opt['s_twitter']))): ?>
+        <?php if ( !empty($s_twitter)): ?>
           <li class="twitter" style="top:-130px;" data-top="-130px">
-            <a href="<?php echo esc_url($cakes_opt['s_twitter']); ?>/" target="_blank"></a>
+            <a href="<?php echo $s_twitter; ?>" target="_blank"></a>
           </li>
         <?php endif; ?>
-        <?php if ( !empty(esc_url($cakes_opt['s_gplus']))): ?>
+        <?php if ( !empty($s_gplus)): ?>
           <li class="google-plus" style="top:-195px;" data-top="-195px">
-            <a href="<?php echo esc_url($cakes_opt['s_gplus']); ?>" target="_blank"></a>
+            <a href="<?php echo $s_gplus; ?>" target="_blank"></a>
           </li>
         <?php endif; ?>
-        <?php if ( !empty(esc_url($cakes_opt['s_pinterset']))): ?>
+        <?php if ( !empty($s_pinterset)): ?>
           <li class="pinterest" style="top:-260px;" data-top="-260px">
-            <a href="<?php echo esc_url($cakes_opt['s_pinterset']); ?>" target="_blank"></a>
+            <a href="<?php echo $s_pinterset; ?>" target="_blank"></a>
           </li>
         <?php endif; ?>
-        <?php if ( !empty(esc_url($cakes_opt['s_linkedin']))): ?>
+        <?php if ( !empty($s_linkedin)): ?>
           <li class="linkedin" style="top:-325px;" data-top="-325px">
-            <a href="<?php echo esc_url($cakes_opt['s_linkedin']); ?>" target="_blank"></a>
+            <a href="<?php echo $s_linkedin; ?>" target="_blank"></a>
           </li>
         <?php endif; ?>
       </ul>

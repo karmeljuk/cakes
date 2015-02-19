@@ -77,7 +77,9 @@ function cakes_setup() {
   add_image_size( 'blog_style_1', 335, 335, true );
   add_image_size( 'history', 336, 144, true );
 
-	// This theme uses wp_nav_menu() in one location.
+  /*
+   * Menu Locations
+   */
 	register_nav_menus( array(
     'left' => __( 'Left Menu', 'cakes' ),
 		'right' => __( 'Right Menu', 'cakes' ),
@@ -114,18 +116,8 @@ function is_post_type($type){
 }
 
 /**
- * Page featured image for background
+ * Register Sidebar
  */
-function page_background() {
-  if ( has_post_thumbnail() ) {
-    $dom = simplexml_load_string(get_the_post_thumbnail());
-    $src = $dom->attributes()->src;
-    echo $src;
-  }
-  return $src;
-}
-
-// Register Sidebar
 function sidebar() {
 
   $args = array(
@@ -270,18 +262,33 @@ function related_products( ) {
 <?php }
 
 /**
+ * Check if set Header Image
+ */
+function no_header_image($classes) {
+  $header_img_check = rwmb_meta('header_img_check');
+  // add 'class-name' to the $classes array
+  if( $header_img_check == 0 ) $classes[] = 'no-header-image';
+  // return the $classes array
+  return $classes;
+}
+add_filter('body_class','no_header_image');
+
+/**
  * Single Header Image
  */
 function single_header_image() {
   $header_img = rwmb_meta('header_img');
+  $header_img_check = rwmb_meta('header_img_check');
 
-  if (is_numeric($header_img) && !empty($header_img)) {
-    $url = wp_get_attachment_url($header_img);
-    echo '<div class="main-image" style="background-image: url('.$url.');"></div>';
-  }
+  if($header_img_check == 1) {
+    if (is_numeric($header_img) && !empty($header_img)) {
+      $url = wp_get_attachment_url($header_img);
+      echo '<div class="main-image" style="background-image: url('.$url.');"></div>';
+    }
 
-  else {
-    echo '<div class="main-image" style="background-image: url(\''.T_IMG.'/blog_header_bg.jpg\');"></div>';
+    else {
+      echo '<div class="main-image" style="background-image: url(\''.T_IMG.'/blog_header_bg.jpg\');"></div>';
+    }
   }
 }
 
@@ -290,13 +297,16 @@ function single_header_image() {
  */
 function product_header_image() {
   $header_img = rwmb_meta('header_img');
+  $header_img_check = rwmb_meta('header_img_check');
 
-  if (is_numeric($header_img) && !empty($header_img)) {
-    $url = wp_get_attachment_url($header_img);
-    echo '<div class="main-image detailed" style="background-image: url('.$url.');"></div>';
-  }
+  if($header_img_check == 1) {
+    if (is_numeric($header_img) && !empty($header_img)) {
+      $url = wp_get_attachment_url($header_img);
+      echo '<div class="main-image detailed" style="background-image: url('.$url.');"></div>';
+    }
 
-  else {
-    echo '<div class="main-image detailed" style="background-image: url(\''.T_IMG.'/bg_top_product_detail.jpg\');"></div>';
+    else {
+      echo '<div class="main-image detailed" style="background-image: url(\''.T_IMG.'/bg_top_product_detail.jpg\');"></div>';
+    }
   }
 }
