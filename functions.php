@@ -24,7 +24,6 @@ locate_template ( F_DIR . '/rs-actions-config.php',   true );
 locate_template ( F_DIR . '/rs-helper-functions.php', true );
 locate_template ( F_DIR . '/rs-include-config.php',   true );
 locate_template ( F_DIR . '/rs-filters-config.php', true );
-// locate_template ( F_DIR . '/rs-widgets-config.php',   true );
 
 /**
  * Set the content width based on the theme's design and stylesheet.
@@ -218,6 +217,8 @@ function related_products( ) {
 
   $args = array(
     'post_type'  => 'product',
+    'order' => 'ASC',
+    'posts_per_page' => 8,
   );
 ?>
 

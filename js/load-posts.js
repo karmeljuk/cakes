@@ -48,7 +48,8 @@ jQuery(document).ready(function($) {
 						$('#articleLoad a span').text('');
 					} else {
             $('#articleLoad').append('<p class="center-align">No More Posts</p>');
-						$('#articleLoad a span').removeClass('red');
+            $('#articleLoad a span').remove();
+						$('#articleLoad a.show-more-items').remove();
 					}
 				}
 			);

@@ -76,7 +76,7 @@
           <?php wp_nav_menu( array( 'theme_location' => 'left' ) ); ?>
         </div>
         <div class="wrap-logo">
-          <a href="/" class="logo" title="Invisio">
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo" title="Invisio">
             <span class="icon"></span>
             <h1>Invisio</h1>
             <strong>cakes</strong>
@@ -88,12 +88,7 @@
       </nav>
       <div class="search">
         <a href="#" class="search-link"></a>
-        <div class="search-form">
-          <form id="searchform" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <input type="text" placeholder="Keyword" id="s" name="s" class="field">
-            <input type="submit" value="">
-          </form>
-        </div>
+        <?php get_template_part( 'searchform' ); ?>
       </div>
     </div>
   </div>

@@ -25,7 +25,7 @@
           </a>
         <?php endif; ?>
         </figure>
-        <div class="meta">
+        <div class="meta time-500">
           <time datetime="<?php the_date('Y-m-d'); ?>"><?php the_time('M j, Y'); ?></time>
           <a href="<?php the_permalink(); ?>#comments-blog" class="comments"><?php echo $post->comment_count ?></a>
           <?php the_tags(''); ?>
