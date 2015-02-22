@@ -131,12 +131,12 @@ body .container {
   clear: both;
 }
 @media (min-width: 768px) {
-  .container {
+  body .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  body .container {
     width: 970px;
   }
 }
@@ -1102,12 +1102,12 @@ form .wpcf7-not-valid-tip, form .wpcf7-response-output {
 }
 
 @media (min-width: 992px) {
-  .container {
+  body .container {
     padding: 0;
   }
 }
 @media (min-width: 758px) and (max-width: 991px) {
-  .container {
+  body .container {
     width: 100%;
   }
   .main-image {
@@ -1115,7 +1115,7 @@ form .wpcf7-not-valid-tip, form .wpcf7-response-output {
   }
 }
 @media (max-width: 757px) {
-  .container {
+  body .container {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1761,6 +1761,9 @@ a.rounded-ico:focus{
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+.comments .comment-list {
+  padding: 0;
 }
 .comments .comment {
   margin-bottom: 30px;

@@ -150,6 +150,14 @@ function wordpressapi_comments($comment, $args, $depth) {
           <div class="comment-meta">
             <time datetime="<?php comment_date('c'); ?>"><?php comment_date('G:i M j, Y'); ?></time>
             <?php edit_comment_link(__('(Edit)', 'cakes') , '&nbsp; ', '') ?>
+
+            <strong>
+              <?php comment_reply_link(array_merge($args, array(
+                'depth' => $depth,
+                'max_depth' => $args['max_depth']
+                )))
+              ?>
+            </strong>
           </div>
 
           <?php $user_name_str = substr(get_comment_author() , 0, 20); ?>
@@ -158,11 +166,6 @@ function wordpressapi_comments($comment, $args, $depth) {
 
           <div class="comment-author"><?php comment_author(); ?> </div>
 
-          <?php comment_reply_link(array_merge($args, array(
-            'depth' => $depth,
-            'max_depth' => $args['max_depth']
-            )))
-          ?>
           </div>
       </div>
 
@@ -233,13 +236,11 @@ function related_products( ) {
         <?php if ( has_post_thumbnail() ) : ?>
           <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
           <?php the_post_thumbnail('related-products-thumb'); ?>
-          </a>
         <?php endif; ?>
-        <h4 class="name">
-          <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-            <?php the_title(); ?>
+            <h4 class="name">
+              <?php the_title(); ?>
+            </h4>
           </a>
-        </h4>
         <div class="description"><?php the_excerpt(); ?></div>
         <strong class="price">
           <span class="through"><?php echo rwmb_meta('old_product_price'); ?></span>
